@@ -50,3 +50,16 @@ We can know the total of **NA's** of the first column.
 print(NAnum)
 ```
 
+## Weekdays and Weekends
+
+````{r}
+library(lattice)
+dat[,4] <- weekdays(dat[,2])
+dat$V5[dat$V4 == "sábado" | dat$V4 == "domingo"] <- "weekend"
+dat$V5[is.na(dat$V5)] <-"week"
+names(dat)
+xyplot(steps ~ interval | V5, data = dat, type= 'l',layout = c(1,2))
+
+````
+
+
