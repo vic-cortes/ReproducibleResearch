@@ -44,7 +44,7 @@ plot( meanInt, type ='l',main = "Daily activity pattern",xlab = "Interval", ylab
 
 ```
 
-## Imputing missin values
+## Imputing missing values
 We can know the total of **NA's** of the first column.
 ```{r, echo=FALSE}
 print(NAnum)
