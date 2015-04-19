@@ -1,12 +1,6 @@
-# ReproducibleResearch
-Coursera Data Specializadtion
----
-title: "Peer Assessment 1"
-author: "Victor Cortes"
-date: "Saturday, April 18, 2015"
-output: slidy_presentation
-widescreen: yes
----
+# Reproducible Research
+This file contains the **Peer Assessment 1** of the Reproducible Research
+
 
 ## Loading and preprocessing the data
 First we have to set the work directory and load the data, then we transform the **date** variable "factor" to "Date". Also we have to remove all the **NA's** of the data set. 
